@@ -8,6 +8,8 @@
 ## import
 ```ts
 const { OperateCookie } = require('@thunder_fury/operate-cookie');
+//OR
+import { OperateCookie } from '@thunder_fury/operate-cookie';
 ```
 ## Method
 
@@ -46,11 +48,12 @@ Set the key of the cookie you want to get in the parameter of method as a charac
 ```ts
   operateCookie.remove(key)
 ```
-Pass the cookie you want to get as a string in the argument of method
----
 
+Pass the cookie you want to get as a string in the argument of method
+
+---
 ### set parms cookie
 ```ts
   operateCookie.addParms()
 ```
-For example, if you set the `key=value` parameter to a URL like this, you can just call the method and the value will be stored in the key in the browser cook.
+For example, if you set the `key=value` parameter to a URL like this, you can just call the method and the value will be stored in the key in the browser cookie.
