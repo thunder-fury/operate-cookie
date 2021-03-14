@@ -3,7 +3,8 @@
 
 ## install
 ```
-  $ npm i -D @thunder_fruy/operate-cookie
+  $ npm i -D @thunder_fury/operate-cookie
+  $ npm i @thunder_fury/operate-cookie
 ```
 ## import
 ```ts
