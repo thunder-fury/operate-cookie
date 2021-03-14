@@ -8,7 +8,6 @@
 ## import
 ```ts
 const { OperateCookie } = require('@thunder_fury/operate-cookie');
-const operateCookie = new OperateCookie
 ```
 ## Method
 
@@ -22,6 +21,10 @@ const operateCookie = new OperateCookie
 
 ---
 ## Example of use
+
+```ts
+const operateCookie = new OperateCookie
+```
 
 ### set cookie
 ```ts
