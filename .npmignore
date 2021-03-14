@@ -1,1 +1,6 @@
 lib/
+package-lock.json
+tsconfig.json
+.node-version
+index.ts
+.vscode
