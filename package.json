@@ -1,11 +1,12 @@
 {
   "name": "@thunder_fury/operate-cookie",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "A simple library for adding, removing and retrieving browser cookies",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "start": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

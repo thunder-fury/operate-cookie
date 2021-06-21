@@ -31,7 +31,7 @@ const operateCookie = new OperateCookie
 
 ### set cookie
 ```ts
-  operateCookie.set(key, value, maxAge)
+  operateCookie.add(key, value, maxAge)
 ```
 Set the method arguments in the order of key, value, maxAge.
 
