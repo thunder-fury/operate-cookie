@@ -1,4 +1,4 @@
-# @thunder_fury/thunder-cookie
+# @thunder_fury/operate-cookie
  A simple library for adding, removing and retrieving browser cookies
 
 ## install

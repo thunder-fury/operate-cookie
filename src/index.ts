@@ -1,10 +1,11 @@
 export class OperateCookie {
   constructor () {}
-  add(key: string, value: string, maxAge: number | null): void {
-    let domain: string = document.domain
-    let cookie = `${key}=${value};domain=${domain};path=${location.pathname};`;
+  add(key: string, value: string, maxAge?: number | null, pathname?: string): void {
+    // let domain: string = document.domain
+    // let cookie = `${key}=${value};domain=${domain};path=${location.pathname};`;
+    let cookie = `${key}=${value};path=${pathname};`;
     if(maxAge != null) {
-      cookie += 'max-age=${maxAge}';
+      cookie += `max-age=${maxAge}`;
     }
     document.cookie = cookie;
   }
